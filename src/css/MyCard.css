@@ -1,0 +1,18 @@
+.MyCard {
+    display: flex;
+
+    height: 17rem;
+    width: 90%;
+    border: 1px solid black;
+}
+
+.MyCard .image-div {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+
+.MyCard .image-div img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
