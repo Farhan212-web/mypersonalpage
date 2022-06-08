@@ -1,0 +1,16 @@
+.Hobbies {
+    position: relative;
+    bottom: 105px;
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+}
+
+.Hobbies > * {
+    margin-left: 1.7rem;
+}
+
+.Hobbies .hobby img {
+    height: 15rem;
+    object-fit: contain;
+}
+

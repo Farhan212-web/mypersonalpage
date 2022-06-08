@@ -1,6 +1,8 @@
 .Skills {
     margin-top: 2rem;
     border: 1px solid #ccc;
+    height: 20rem;
+    overflow: auto;
 }
 
 .Skills .all-skills .skill {

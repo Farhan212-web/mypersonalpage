@@ -1,0 +1,15 @@
+.Journey {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+}
+
+.Journey img {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+}
+
+.Journey > * {
+    padding-left: 2rem;
+    text-align: center;
+}
