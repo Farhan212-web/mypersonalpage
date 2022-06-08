@@ -1,0 +1,13 @@
+.Skills {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+}
+
+.Skills .all-skills .skill {
+    display: flex;
+    align-items: center;
+}
+
+.Skills .all-skills .skill p {
+    padding-right: 1rem;
+}
