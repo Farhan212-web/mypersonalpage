@@ -4,6 +4,9 @@ import './css/App.css';
 import Skills from "./Skills";
 import Journey from "./Journey";
 import Hobbies from "./Hobbies";
+import WorkExperience from "./WorkExperience";
+import Projects from "./Projects";
+
 
 const App = () => {
     return (
@@ -14,7 +17,11 @@ const App = () => {
                 <Skills />
                 <Journey />
                 <Hobbies />
+                <WorkExperience />
             </div>
+
+            <Projects />
+
         </div>
     )
 }

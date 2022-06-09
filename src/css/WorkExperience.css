@@ -1,0 +1,41 @@
+.Work-Experience {
+    margin-top: 2rem;
+    border: 1px solid #ccc;
+    height: 64rem;
+}
+
+.Work-Experience .experience .image-div {
+    padding-left: 1rem;
+}
+
+.Work-Experience .experience .image-div img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.Work-Experience .experience {
+    display: flex;
+    align-items: center;
+}
+
+.Work-Experience .experience .experience-text {
+    margin-left: 2rem;
+}
+
+@media(max-width: 1033px) {
+
+    .Work-Experience {
+        height: auto;
+    }
+
+    p {
+        font-size: .7rem;
+    }
+
+    .Work-Experience .experience {
+        flex-wrap: wrap;
+    }
+    .Work-Experience .experience .experience-text {
+        margin-left: 1rem;
+    }
+}
