@@ -6,6 +6,7 @@ import Journey from "./Journey";
 import Hobbies from "./Hobbies";
 import WorkExperience from "./WorkExperience";
 import Projects from "./Projects";
+import Footer from "./Footer";
 
 
 const App = () => {
@@ -21,6 +22,8 @@ const App = () => {
             </div>
 
             <Projects />
+
+            <Footer />
 
         </div>
     )

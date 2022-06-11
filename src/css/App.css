@@ -11,3 +11,16 @@
     grid-template-columns: repeat(2, 1fr);
     column-gap: 2rem;
 }
+
+@media(max-width: 882px) {
+    .main-grid {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .Journey {
+        margin-bottom: 90px;
+    }
+
+    
+}

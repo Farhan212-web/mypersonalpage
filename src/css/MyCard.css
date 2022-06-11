@@ -43,3 +43,10 @@
 .MyCard .profileDesc .contact-info .my-info div h4 {
     padding-left: 1rem;
 }
+
+@media(max-width: 882px) {
+    .MyCard {
+        flex-wrap: wrap;
+        height: auto;
+    }
+}

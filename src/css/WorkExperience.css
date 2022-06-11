@@ -1,7 +1,8 @@
 .Work-Experience {
     margin-top: 2rem;
     border: 1px solid #ccc;
-    height: 64rem;
+    min-height: auto;
+    overflow: hidden;
 }
 
 .Work-Experience .experience .image-div {
@@ -26,10 +27,6 @@
 
     .Work-Experience {
         height: auto;
-    }
-
-    p {
-        font-size: .7rem;
     }
 
     .Work-Experience .experience {

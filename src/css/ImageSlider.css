@@ -6,8 +6,8 @@
 }
 
 .image {
-    width: 1000px;
-    height: 600px;
+    object-fit: contain;
+    width: 95%;
     border-radius: 10px;
 }
 
@@ -32,3 +32,4 @@
     cursor: pointer;
     user-select: none;
 }
+

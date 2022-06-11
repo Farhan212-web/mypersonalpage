@@ -1,0 +1,18 @@
+.Footer {
+    color: white;
+}
+
+.Footer .logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Footer .logos .logo {
+    height: 3rem;
+    background-color: white;
+}
+
+.social-link:hover {
+    opacity: .7;
+}
+
